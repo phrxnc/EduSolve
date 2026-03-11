@@ -1,0 +1,335 @@
+/*
+Theme Name: Blue Sense
+Theme URI: http://www.doshdosh.com/
+Description: <p><a href="http://www.doshdosh.com/bluesense-theme/">Blue Sense</a> Adsense Ready Wordpress Theme.</p> 
+Version: 1.0
+Author: Dosh Dosh
+Author URI: http://www.doshdosh.com/
+*/
+
+*
+{
+  padding: 0;
+  margin: 0;
+}
+
+body
+{
+	font-size:   76%;
+	font-family: Arial, Verdana, Sans-Serif;
+	background-color: #ffffff;
+}
+
+hr
+{
+  display: none;
+}
+
+#page
+{
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #F0F6FB;
+}
+
+#wrapper
+{
+  width: 1024px;
+  margin: 0 auto;
+  background-color: #F0F6FB;
+}
+
+#content
+{
+  float: left;
+  width: 550px;
+}
+
+.post
+{
+  margin-bottom: 20px;
+  color: #064B8C;
+  padding-left: 5px;
+  padding-right: 5px;
+  font-size: 1.1em;
+}
+
+h2
+{
+  font-size: 1.6em;
+  border-bottom: 1px solid #064B8C;
+}
+
+h2 a:hover, h2 a:visited, h2 a
+{
+  text-decoration: none;
+  color: #064B8C;
+}
+
+.entry
+{
+  margin-top: 10px;
+  margin-bottom: 15px;
+}
+
+.postmetadata
+{
+  padding: 2px;
+  font-size: 0.8em;
+  border-top: 1px solid #064B8C;
+}
+
+.postmetadata a
+{
+  color: #064B8C;
+}
+
+.post p
+{
+  line-height: 1.4em;
+  margin-bottom: 1em;
+}
+
+blockquote
+{
+  margin: 1em 1.5em;
+  padding: 1em 1.5em;
+  border: 1px solid #064B8C;
+  background: #d3d3d3;
+}
+
+.post li
+{
+  margin-left: 20px;
+}
+
+.post ul
+{
+  list-style-type: disc;
+  margin-bottom: 10px
+}
+
+acronym, abbr, span
+{
+  cursor: help;
+}
+
+acronym, abbr
+{
+  border-bottom: 1px dashed #064B8C;
+}
+
+blockquote cite
+{
+  margin: 5px 0 0;
+  display: block;
+}
+
+.center
+{
+  text-align: center;
+}
+
+a img
+{
+  border: none;
+}
+
+h3
+{
+  margin-top: 1em;
+  margin-bottom: 1em;
+  font-size: 1.4em;
+}
+
+h4
+{
+  margin-top: 1.2em;
+  font-size: 1.2em;
+}
+
+h5
+{
+  margin-top: 1em;
+  font-size: 1em;
+}
+
+a
+{
+  color: #064B8C;
+}
+
+.navigation
+{
+  display: block;
+  margin-top: 10px;
+  margin-bottom: 40px;
+}
+
+.alignleft
+{
+  float: left;
+  text-align: left;
+  width: 50%;
+}
+
+.alignright
+{
+  float: right;
+  text-align: right;
+  width: 50%
+}
+
+ol.commentlist
+{
+  width: 90%;
+  margin: 0 auto;
+}
+
+ol.commentlist li
+{
+  margin-bottom: 1.5em;
+  border: 1px solid #064B8C;
+  padding: 5px;
+  background-color: #d3d3d3;
+}
+
+ol.commentlist li.alt
+{
+  background-color: #d3d3d3;
+}
+
+ol.commentlist a
+{
+  color: #064B8C;
+}
+
+small.commentmetadata
+{
+  font-size: 0.8em;
+  margin-bottom: 1em;
+  display: block;
+}
+
+#header
+{
+  margin-bottom: 0px;
+  margin-top: 0px;
+  text-align: center;
+  padding-top: 0px;
+ height: 50px;
+ 
+ 
+}
+
+#headerimg
+{
+  text-align: center;
+  padding-top: 20px;
+}
+
+#sidebar
+{
+  float: right;
+  width: 160px;
+  padding: 2px;
+  text-align: left;
+}
+
+#sidebar ul
+{
+  list-style: none;
+  margin-bottom: 10px;
+}
+
+#sidebar ul ul
+{
+  list-style-type: circle;
+  margin-left: 20px;
+}
+
+#sidebar ul ul ul
+{
+  margin-bottom: 0;
+}
+
+#sidebar ul h2
+{
+  font-size: 1.2em;
+  font-weight: bold;
+  padding: 2px;
+  margin-bottom: 5px;
+  background-color: #064B8C;
+  color: #ffffff;
+}
+
+#menu
+{
+  float: left;
+  width: 300px;
+  padding: 2px;
+  text-align: left;
+}
+
+#menu ul
+{
+ list-style: none;
+  margin-bottom: 10px;
+}
+
+#menu ul ul
+{
+   list-style-type: circle;
+  margin-left: 20px;
+}
+
+#menu ul ul ul
+{
+  margin-bottom: 0;
+}
+
+#menu ul h2
+{
+   font-size: 1.2em;
+  font-weight: bold;
+  padding: 2px;
+  margin-bottom: 5px;
+  background-color: #064B8C;
+  color: #ffffff;
+}
+
+#footer 
+{
+  padding: 5px;
+  margin: 5px;
+  clear: both;
+  text-align: center;
+  background-color: #064B8C;
+  color: #ffffff;
+}
+
+#footer a
+{
+  color: #ffffff;
+}
+
+.description
+{
+  border-bottom: 100px;
+}
+
+#ad_hf
+{
+  text-align: center;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  background-color: #064B8C;
+  height: 20px;
+}
+
+#search
+{
+  text-align: left;
+  padding-left: 20px;
+	background-color: #F0F6FB;
+}
